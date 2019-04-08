@@ -12,7 +12,7 @@ h2{
 }
 article{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-bottom: 1px;
+    border-bottom: 1px black solid;
     background-color:skyblue;
 }
 p{
