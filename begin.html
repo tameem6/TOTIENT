@@ -3,26 +3,35 @@
     <head>
         <title>Begin</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="check.js" type="text/javascipt"></script>
     </head>
     <body>
-        <h1>Testing CSS</h1>
-        <h2>Article 1</h2>
-        <article>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate soluta, eum ea atque a magni.
-                 Numquam ducimus quae animi commodi modi corrupti ipsa ex, velit, explicabo dolor, quos rem impedit.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                 Consequuntur aperiam culpa qui cupiditate quis, incidunt impedit fugit adipisci, quasi voluptas ut libero nemo nihil quaerat provident dicta repellendus minima facere.
-            </p>
-        </article>
-        <h2>Article 2</h2>
-        <article>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                 Ad a aut cupiditate, veritatis, illum odit blanditiis ipsa ipsam consectetur nesciunt harum. Maiores, consequuntur! Modi, vel doloribus. Hic tempore dignissimos excepturi?
-            </p>           
-        </article>
-    </body>
+        <ul>
+            <li><a href="https://www.w3schools.com/js/default.asp">INTRO</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET">YOUTUBE</a></li>
+            <li><a href="https://www.reddit.com/r/learnjavascript">REDDIT</a></li>
+          </ul>
+          <div>
+            <form>
+            Check Odd or Even
+            <input type="number" id="oddeve" name="odoreve">
+            <input type="submit" value="Check" onclick="calcEve()">
+            </form>
+            <br>
+            <form>
+            Find fibonacci
+            <input type="number" id="fib" name="fibo">
+            <input type="submit" value="Check" onclick="calcFibonacci()">
+            </form>
+            <br>
+            <p>Check prime</p>
+            <input type="number" id="prime" name="prim">
+            <input type="submit" value="Check" onclick="calcPrime()">
+            <p>Basic operation on 2 numbers</p><br>
+            <input type="number" id="num1" name="n1"><br><br>
+            <input type="number" id="num2" name="n2">
+            <input type="submit" value="Check" onclick="calcOp()">
+          </div>
+        </body>
 </html>
