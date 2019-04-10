@@ -17,10 +17,11 @@ function sdCalc()
 {
     var ar=document.getElementById("stan").value;
     ar=ar.split(" ").map(Number);
+    /*
     for(var i=0;i<ar.length;i++)
     {
         ar[i]=parseInt(ar[i]);
-    }
+    }*/
     var sum = ar.reduce(function(a, b) { return a + b; }, 0);
     var mean=sum/ar.length;
     var dif=[];
@@ -55,9 +56,21 @@ function flip()
     else
         alert("Tails!");
 }
-function hide()
+function hideFunc()
 {
-    var str = document.getElementById("cli").value;
-  var arr = str.split(" ");
-  alert(arr);
+  var s=document.getElementById("hideC").value;
+  s=s.split(" ");
+  var a=[];
+  j=0;
+  for(var i=0;i<s.length;i++)
+  {
+    if(s[i]==="client:")
+      a[j++]=i;
+  }
+  for(i=0;i<a.length;i++)
+  {
+    s[a[i]]="<Redacted>";
+  }
+  s=s.join(" ");
+  alert(s);
 }
