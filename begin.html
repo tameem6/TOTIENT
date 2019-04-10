@@ -1,27 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Begin</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <script src="check.js"></script>
-    </head>
-    <body>
-        <ul>
-            <li><a href="https://www.w3schools.com/js/default.asp">INTRO</a></li>
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a></li>
-            <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET">YOUTUBE</a></li>
-            <li><a href="https://www.reddit.com/r/learnjavascript">REDDIT</a></li>
-          </ul>
-          <form>
-            Enter number : <br><input type="number" id="ooe"><br>
-            <input type="submit" onclick="calcEve()" value="Check"><br>
-            Fibonacci : <br><input type="numbere" id="fib"><br>
-            <input type="submit" onclick="calcFib()" value="Caclulate"><br>
-            Check Prime : <br><input type="number" id="prim"><br>
-            <input type="submit" onclick="calcPrime()" value="Check"><br>
-            Enter 2 nums : <br><input type="number" id="var1"><br>
-            <input type="number" id="var2"><br>
-            <input type="submit" onclick="calcu()" value="Calculate"><br>
-          </form>
-    </body>
+  <head>
+    <title>2nd Ass</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="check.js"></script>
+  </head>
+  <body>
+    <form>
+      Cube : <input type="text" placeholder="Separate with space" id="cub"><br>
+      <input type="submit" onclick="cubeCalc()" value="Calculate"><br>
+      Standard Deviation : <input type="text" placeholder="Enter array" id="stan"><br>
+      <input type="submit" onclick="sdCalc()" value="Calculate"><br>
+      Any number of arguments : <input type="text" id="args"><br>
+      <input type="submit" onclick="argCheck()" value="Calculate"><br>
+      <input type="submit" onclick="flip()" value="Click me to flip a coin"><br>
+      Hide Client Name : <input type="text" id="cli">
+      <input type="submit" onclick="hide()" value="Hide">
+      <p id="hid"></p>
+    </form>
+  </body>
 </html>
