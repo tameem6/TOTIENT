@@ -1,16 +1,24 @@
 *{
     font-family:sans-serif;
 }
+.navbar{
+  border-radius: 0px;
+  margin-bottom:0px!important;
+}
+.nav1{
+    background-color: #222!important;
+    border-radius: none!important;
+}
 .bg{
     background-image: url('bg-01.jpg');
-    width: 100%;  
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
   }
 
   .layer {
-    width: 100%;  
+    width: 100%;
     min-height: 100vh;
     display: -webkit-box;
     display: -webkit-flex;
