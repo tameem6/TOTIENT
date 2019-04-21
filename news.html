@@ -21,7 +21,7 @@
           <a class="nav-link" href="#">World</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Politics</a>
+          <a class="nav-link" href="#">Opinion</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Sports</a>
@@ -29,9 +29,51 @@
       </ul>
     </div>
   </nav>
-  <div class="container-fluid">
-    
-
+  <!-- Carousels-->
+  <div class="container">
+  <div class="carousel slide" id="myslider" data-ride="carousel">
+    <!--Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myslider" data-slide-to="0"></li>
+      <li data-target="#myslider" data-slide-to="1"></li>
+      <li data-target="#myslider" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active imgadj">
+        <a href="https://edition.cnn.com/2019/04/15/world/notre-dame-cathedral-fire/index.html">
+          <img src="https://cdn.cnn.com/cnnnext/dam/assets/190415133935-04-notre-dame-fire-0415-exlarge-169.jpg">
+        </a>
+        <div class="carousel-caption">
+          <h3>Notre Dame In Flames</h3>
+          <p>Catastrophic fire engulfs the Cathedral in Paris</p>
+        </div>
+      </div>
+      <div class="carousel-item imgadj">
+        <a  href="https://www.theguardian.com/football/2019/apr/17/ajax-sensation-of-europe-dutch-and-italian-press-react-to-turin-triumph">
+          <img src="https://i.guim.co.uk/img/media/04a1d4c7ae64d8b92b3c99dbaa8b07d78d4ffbba/0_35_2303_1382/master/2303.jpg?width=620&quality=45&auto=format&fit=max&dpr=2&s=368ed01a5b5b593642f9617c6561e80d">
+        </a>
+        <div class="carousel-caption">
+        <h3>Ajax Cruise To Semis</h3>
+        <p>Ajax beat Juventus 2-1 to reach UCL Semi-Finals</p>
+      </div>
+      </div>
+      <div class="carousel-item imgadj">
+        <a href="https://www.theguardian.com/technology/2019/apr/18/galaxy-fold-samsung-investigates-as-screens-break-in-first-days">
+          <img src="https://i.guim.co.uk/img/media/d3bfddd2556c06d0a84644761e03c349a35e5762/191_260_4520_2713/master/4520.jpg?width=620&quality=45&auto=format&fit=max&dpr=2&s=e4568873870597b389b68645916bba78">
+        </a>
+        <div class="carousel-caption">
+        <h3>Galaxy Fold reports screen breaks</h3>
+        <p>The new $2000 phone has been reported to have breaks in tester devices</p>
+      </div>
+      </div>
+    </div>
+    <a class="carousel-control-next" href="#myslider" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+    <a class="carousel-control-prev" href="#myslider" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+  </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
