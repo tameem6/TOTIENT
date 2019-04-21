@@ -1,8 +1,13 @@
-carousel {
-  max-height: 300px;
-  overflow: hidden;
+.imgadj img{
+  width:100%;
+  height:100bg;
 }
-  .carousel-item img {
-    width: 100%;
-    height: auto;
+a {
+    color: #333;
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #333;
 }
