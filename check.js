@@ -60,16 +60,19 @@ function hideFunc()
 {
   var s=document.getElementById("hideC").value;
   s=s.split(" ");
-  var a=[];
-  j=0;
+  var a="";
   for(var i=0;i<s.length;i++)
   {
     if(s[i]==="client:")
-      a[j++]=i;
+    {
+      a=s[i+1];
+      break;
+    }
   }
-  for(i=0;i<a.length;i++)
+  for(i=0;i<s.length;i++)
   {
-    s[a[i]]="<Redacted>";
+    if(s[i]===a)
+        s[i]="<Redacted>";
   }
   s=s.join(" ");
   alert(s);

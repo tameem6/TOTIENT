@@ -6,31 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
+  <!-- Font awesome CDN-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="newstyles.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="#">The Daily</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
+      <ol class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="#">World</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Opinion</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sports</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Sports</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Football</a>
+            <a class="dropdown-item" href="#">Cricket</a>
+            <a class="dropdown-item" href="#">Formula 1</a>
+            <a class="dropdown-item" href="#">Moto GP</a>
+          </div>
         </li>
-      </ul>
+      </ol>
     </div>
   </nav>
-  <!-- End navbars-->
+  <!-- End navbar-->
   <div class="container">
+    <h2 class="display-4 text-center" style="padding: 15px 0px 15px 0px;">Breaking News</h2>
     <!-- Carousels-->
   <div class="carousel slide" id="myslider" data-ride="carousel">
     <!--Indicators -->
@@ -64,7 +72,7 @@
         </a>
         <div class="carousel-caption">
         <h3>Galaxy Fold reports screen breaks</h3>
-        <p>The new $2000 phone has been reported to have breaks in tester devices</p>
+        <p>The new $2000 phone has been reported to have problems in tester devices</p>
       </div>
       </div>
     </div>
@@ -77,7 +85,7 @@
   </div>
 </div>
   <!--End carousel-->
-  <h2 class="display-6 text-center pu-5 my-4">Headlines</h2>
+  <h2 class="display-4 text-center pu-5 my-4">Headlines</h2>
   <!-- Accordions-->
   <div class="container">
     <nav class="nav justify-content-center nav-pills flex-column">
@@ -105,8 +113,109 @@
   </div>
     <h3 class="display-4 text-center">Our Writers</h3>
     <!-- Cards -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="propic.jpg" class="card-img-top img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Journalist1</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nisi animi non, error dolore corporis</p>
+              <a href="#" class="btn btn-outline-dark" title="List of articles written">Articles</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="propic.jpg" class="card-img-top img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Journalist2</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nisi animi non, error dolore corporis</p>
+              <a href="#" class="btn btn-outline-dark" title="List of articles written">Articles</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="propic.jpg" class="card-img-top img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Journalist3</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nisi animi non, error dolore corporis</p>
+              <a href="#"class="btn btn-outline-dark" title="List of articles written">Articles</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="propic.jpg" class="card-img-top img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Journalist4</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nisi animi non, error dolore corporis</p>
+              <a href="#" class="btn btn-outline-dark" title="List of articles written">Articles</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End cards-->
+    <footer class="footer bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="list-menu">
+              <h4>About Us</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="footlist" href="#">About Us</a>
+                </li>
+                <li>
+                  <a class="footlist" href="#">About Us</a>
+                </li>
+                <li>
+                  <a class="footlist" href="#">About Us</a>
+                </li>  
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6">
+              <div class="list-menu">
+                <h4>About Us</h4>
+                <ul class="list-unstyled">
+                  <li>
+                    <a class="footlist" href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a class="footlist" href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a class="footlist" href="#">About Us</a>
+                  </li>  
+                </ul>
+              </div>
+            </div>
+        </div>
 
-</div>
+    <div class="row">
+        <span style="font-size:3em; padding:20px 20px;">
+          <a class="footlist" href="#"><i class="fab fa-pinterest-p"></i></a>
+        </span>
+        <span style="font-size:3em; padding:20px 20px;">
+            <a class="footlist" href="#"><i class="fab fa-instagram"></i></a>
+          </span>
+          <span style="font-size:3em; padding:20px 20px;">
+              <a class="footlist" href="#"><i class="fab fa-facebook-square"></i></a>
+            </span>
+            <span style="font-size:3em; padding:20px 20px;">
+                <a class="footlist" href="#"><i class="fas fa-map-marker-alt"></i></a>
+              </span>
+      </div>
+    </div>
+    <div class="copyrights">
+      <div class="container">
+        <p class="text-center">&copy; The Daily. All Rights Reserved.</p>
+      </div>
+    </div>
+    </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

@@ -1,13 +1,38 @@
 .imgadj img{
   width:100%;
-  height:100bg;
+  height:80%;
 }
 a {
     color: #333;
     text-decoration: none;
     background-color: transparent;
 }
+.nav a:hover{
+  color:#333;
+  border-bottom: 1px solid #333;
+  border-radius:0px;
+}
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
     background-color: #333;
+}
+.footer{
+  color:#fff;
+  margin-top:10px;
+  padding:10px 0px;
+}
+.footlist{
+  text-decoration: none;
+  color:rgb(214, 214, 214);
+  line-height: 3;
+}
+a[class=footlist]:hover{
+  text-decoration: none;
+  color:#fff;
+}
+.copyrights{
+  background-color:#fff;
+  color:#333;
+  margin-top:15px;
+  padding:10px 0px;
 }
